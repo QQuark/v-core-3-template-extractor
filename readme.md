@@ -8,6 +8,10 @@ The result is provided in the output dir for convenience.
 
 Some of the templates are redundant or almost-redundant, it is up to you to decide which ones you actually need by comparing them.
 
+## Template locations
+
+![locations](template-locations.png)
+
 ## How to use the script
 
   - Drop inside the directory of the DXF files
