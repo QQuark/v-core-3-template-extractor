@@ -12,7 +12,7 @@ Some of the templates are redundant or almost-redundant, it is up to you to deci
 
 ![locations](template-locations.png)
 
-## How to use the script
+## How to use the SCAD file
 
   - Drop inside the directory of the DXF files
   - Verify that with the default .scad file provided the extractions shown in openscad are in the correct locations
@@ -28,7 +28,10 @@ Some of the templates are redundant or almost-redundant, it is up to you to deci
   
 ## Possible improvements
 
-  - Add an automatic ridge on the panel edges to allow for a thicker template without using too much material, as well as easy positionning
-  - Visually indicate the quadrant
+  - Visually indicate the quadrant, and the panel edges for alignment.
   - Check that this is compatible with the 300 and 400 version
+  
+## License
 
+Script is GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+STL Files are whatever is compatible with the original licenses of the DXF files from RatRig
