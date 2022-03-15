@@ -17,7 +17,9 @@ Some of the templates are redundant or almost-redundant, it is up to you to deci
   - Drop inside the directory of the DXF files
   - Verify that with the default .scad file provided the extractions shown in openscad are in the correct locations
   - Comment the last line (call to "select")
-  - Execute the extraction with make_stl.py v-core-3-500-panel-templates.scad
+  - Execute the extraction with make_stl.py, provided [*here*](https://github.com/QQuark/make_stl)
+      
+      ``` make_stl.py v-core-3-500-panel-templates.scad ```
 
 ## Features
 
