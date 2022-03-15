@@ -2,6 +2,8 @@
 // template_offset = (8.5 - 6) / 2;
 template_offset = 0;
 
+thickness = 8;
+
 module template_poly(diff = false, r = 1) {
     if (diff) 
     {
@@ -16,12 +18,13 @@ module template_poly(diff = false, r = 1) {
     }
 }
 
-module template_full(file="panel_base_500.dxf", height = 4) {
+module template_full(file="panel_base_500.dxf") {
+    height = thickness;
     %translate([0, 400])
-        linear_extrude(height = 4, center = true, convexity = 10)
+        linear_extrude(height = height, center = true, convexity = 10)
             text(file, 50, halign="center", valign="center");
 
-    linear_extrude(height = 4, center = true, convexity = 10)
+    linear_extrude(height = height, center = true, convexity = 10)
         template_poly(diff = false, r = template_offset) 
             import (file);
 }
